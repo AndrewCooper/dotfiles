@@ -20,7 +20,7 @@
 	noconsole = true
 	needsfile = true
 [guitool "Edit with GVim"]
-	cmd = GVim $FILENAME
+	cmd = gvim $FILENAME
 	needsfile = true
 	noconsole = true
 [help]
