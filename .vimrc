@@ -189,6 +189,7 @@ set nu
 "filetype       type of file; triggers the FileType event when set
 "       (local to buffer)
 "       set ft=vim
+filetype plugin indent on
 "syntax name of syntax highlighting used
 "       (local to buffer)
 "       set syn=vim
