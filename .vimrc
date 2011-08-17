@@ -208,6 +208,7 @@ set hls
 "cursorline     highlight the screen line of the cursor
 "       (local to window)
 "       set nocul       cul
+set cursorline
 "colorcolumn    columns to highlight
 "       (local to window)
 "       set cc=
