@@ -1,4 +1,4 @@
-Columns=90
+Columns=87
 Rows=60
 Transparency=medium
 OpaqueWhenFocused=yes
@@ -14,7 +14,7 @@ FontIsBold=no
 FontHeight=8
 ScrollMod=off
 RightClickAction=menu
-CopyOnSelect=no
+CopyOnSelect=yes
 ClicksPlaceCursor=yes
 ClicksTargetApp=yes
 ClickTargetMod=shift
