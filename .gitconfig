@@ -12,12 +12,16 @@
 	excludesfile = ~/.gitignore_global
 	filemode = false
 	symlinks = false
-[help]
-	format = web
 [gui]
 	commitmsgwidth = 80
 	encoding = utf-8
 [guitool "Difftool"]
 	cmd = "git difftool --no-prompt -- "
-	noconsole = yes
+	noconsole = true
 	needsfile = true
+[guitool "Edit with GVim"]
+	cmd = GVim $FILENAME
+	needsfile = true
+	noconsole = true
+[help]
+	format = web
