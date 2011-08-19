@@ -11,3 +11,8 @@ Thumbs.db
 
 # Folder config file
 Desktop.ini
+
+# VIM ( https://github.com/github/gitignore/blob/master/Global/vim.gitignore )
+.*.sw[a-z]
+*.un~
+Session.vim
