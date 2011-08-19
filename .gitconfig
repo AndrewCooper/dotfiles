@@ -12,6 +12,8 @@
 	excludesfile = ~/.gitignore_global
 	filemode = false
 	symlinks = false
+[diff]
+	tool = kdiff3
 [gui]
 	commitmsgwidth = 80
 	encoding = utf-8
@@ -25,3 +27,5 @@
 	noconsole = true
 [help]
 	format = web
+[merge]
+	tool = kdiff3
