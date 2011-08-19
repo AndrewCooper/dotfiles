@@ -1,3 +1,4 @@
+source ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
 " 1 important
