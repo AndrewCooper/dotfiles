@@ -1,5 +1,7 @@
 [user]
 	name = Andrew Cooper
 	email = andrew.cooper@hkcreations.org
+[core]
+	excludesfile = ~/.gitignore_global
 [help]
 	format = web
