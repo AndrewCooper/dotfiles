@@ -3,3 +3,11 @@
 #   ~/.gitignore_global
 #
 ###########################################################
+
+# Windows ( https://github.com/github/gitignore/blob/master/Global/Windows.gitignore )
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
