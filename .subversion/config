@@ -13,7 +13,15 @@
 ###   kwallet              (Unix-like systems)
 ###   keychain             (Mac OS X)
 ###   windows-cryptoapi    (Windows)
-# password-stores = windows-cryptoapi
+# password-stores = gnome-keyring,kwallet,windows-cryptoapi
+###
+### Set KWallet wallet used by Subversion. If empty or unset,
+### then the default network wallet will be used.
+# kwallet-wallet =
+###
+### Include PID (Process ID) in Subversion application name when
+### using KWallet. It defaults to 'no'.
+# kwallet-svn-application-name-with-pid = yes
 ###
 ### The rest of this section in this file has been deprecated.
 ### Both 'store-passwords' and 'store-auth-creds' can now be
@@ -74,7 +82,7 @@
 ### passed to the tunnel agent as <user>@<hostname>.)  If the
 ### built-in ssh scheme were not predefined, it could be defined
 ### as:
-# ssh = $SVN_SSH ssh -q
+# ssh = $SVN_SSH ssh -q -o ControlMaster=no
 ### If you wanted to define a new 'rsh' scheme, to be used with
 ### 'svn+rsh:' URLs, you could do so as follows:
 # rsh = rsh
