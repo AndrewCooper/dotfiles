@@ -17,3 +17,7 @@
 [gui]
 	commitmsgwidth = 80
 	encoding = utf-8
+[guitool "Difftool"]
+	cmd = "git difftool --no-prompt -- "
+	noconsole = yes
+	needsfile = true
