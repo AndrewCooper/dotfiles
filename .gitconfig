@@ -1,7 +1,19 @@
 [user]
 	name = Andrew Cooper
 	email = andrew.cooper@hkcreations.org
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = true
 [core]
+	autocrlf = input
+	editor = vim
 	excludesfile = ~/.gitignore_global
+	filemode = false
+	symlinks = false
 [help]
 	format = web
+[gui]
+	commitmsgwidth = 80
+	encoding = utf-8
