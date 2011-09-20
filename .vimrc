@@ -543,6 +543,7 @@ set shiftround
 "expandtab      expand <Tab> to spaces in Insert mode
 "       (local to buffer)
 "       set noet        et
+set expandtab
 "autoindent     automatically set the indent of a new line
 "       (local to buffer)
 "       set noai        ai
